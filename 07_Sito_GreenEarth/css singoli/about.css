@@ -1,0 +1,65 @@
+
+/* ABOUT SECTION */
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.about {
+  margin: 60px 0 0 0;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-verde-txt {
+  width: 300px;
+}
+
+.about-txt,
+.title-about,
+.title-mission,
+.project-title {
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.title-about,
+.title-mission {
+  font-weight: 600;
+}
+
+.text-about,
+.text-mission {
+  display: flex;
+  flex-direction: column;
+  width: 28.2rem;
+  color: var(--primary-color);
+
+}
+
+.mission {
+  margin: 5rem 0 0 0;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.volunteers {
+  align-content: flex-start;
+  width: 28.2rem;
+  height: 21rem;
+  object-fit: cover;
+  object-position: 0 -40px;
+  border-radius: 0.6rem;
+}

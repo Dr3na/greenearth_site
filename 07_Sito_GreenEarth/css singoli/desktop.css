@@ -1,0 +1,186 @@
+@media only screen and (min-width: 801px) and (max-width: 1280px) {
+  .navbar-header .main-menu ul {
+    display: flex;
+    width: 60%;
+  }
+
+  .navbar-header .main-menu ul li a {
+    display: flex;
+    font-size: 0.8rem;
+    margin-right: 10px;
+  }
+
+  .logo-normal {
+    width: 8rem;
+  }
+
+    /* HERO SECTION */
+    .hero .hero-content {
+      width: 80%;
+      height: 80%;
+   }
+  
+   .hero-heading{
+    font-size: 3rem;
+   }
+  
+   .hero .hero-text{
+    font-size: 1.7rem;
+   }
+      /* ABOUT SECTION */
+.about-us .about {
+  justify-content: space-between;
+}
+
+ .about-txt {
+  font-size: 2rem;
+ }
+
+ .logo-verde-txt {
+  width: 10rem;
+  height: 1.5rem;
+  margin-top: -0.6rem;
+ }
+
+ .about-us .text-about {
+  margin-left: 3rem;
+  width: 25rem;
+ }
+
+ .title-about,
+ .title-mission {
+  font-size: 1.5rem;
+  font-weight: bold;
+ }
+
+ .about-us .text-mission {
+  padding: 0 3rem 0 0;
+  width: 25rem;
+ }
+
+.about-us .volunteers {
+  width: 25rem;
+  margin-left: 3rem;
+}
+
+/* OUR PROJECTS SECTION */
+.background-our-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50rem;
+    background-color: var(--secondary-color);
+  }
+
+  /* SLIDESHOW */
+  .our-projects .slider-container {
+    display: flex;
+    width: 100%;
+    height: 29rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-projects .slider {
+    height: 29rem;
+    width: 100%;
+    flex: 1 0 100%;
+    overflow-y: hidden;
+    scroll-snap-type: x block;
+    position: relative;
+    transition: linear;
+  }
+
+  .our-projects .img-1 {
+    background: url("https://images.unsplash.com/photo-1566419808810-658178380987?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: 0 -50px;
+  }
+
+  .our-projects .img-2 {
+    background: url("https://images.unsplash.com/photo-1453872302360-eed3c5f8ff66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: 0 -400px;
+  }
+
+  .our-projects .img-3 {
+    background: url("https://images.unsplash.com/photo-1650668302199-59ac9e47f405?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-position: cover;
+    background-position: 0 -250px;
+  }
+
+  .our-projects .content-img {
+    margin-left: 180px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    height:70%;
+    width:40%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .our-projects .img-2 .text-l-2,
+  .our-projects .img-2 .p-2 {
+    color: var(--primary-color);
+  }
+
+  .our-projects .slider-container h2 {
+    color: var(--third-color);
+    text-align: left;
+    margin: 0 50px 20px 50px;
+  }
+
+  .our-projects .slider-container p { 
+    color: var(--third-color);
+    font-size: 1rem;
+    text-align: left;
+    margin: 0 50px;
+  }
+
+  .our-projects .slider-container .btn-primary {
+    width: 174px;
+    height: 50px;
+    margin: 40px 0 0 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+  }
+  /* FOOTER SECTION */
+.footer-container-background .footer-container-mobile,
+.footer-container-background .footer-content-bottom-mobile {
+  display: none;
+}
+.footer-container .footer-container-desktop {
+  display: flex;
+}
+}
+
+@media only screen and (min-width: 1281px) {
+  .navbar-header .main-menu ul {
+    display: flex;
+  }
+
+  .navbar-header .main-menu ul li a {
+    display: flex;
+  }
+
+  /* FOOTER SECTION */
+  .footer-container .footer-container-desktop {
+  display: flex;
+  
+}
+}

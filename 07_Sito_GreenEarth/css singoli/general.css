@@ -1,0 +1,62 @@
+
+/* Reset default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Utilities settings */
+
+:root {
+  --primary-color: #07404B;
+  --secondary-color: #C6E5DE;
+  --cta-color: #BCDC49;
+  --font-color: #A0D6CA;
+  --font-color-hover: #7da89f;
+  --third-color: #FAFEFF;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--third-color);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-normal {
+  width: 10rem;
+}
+
+.logo-mobile {
+  width: 4rem;
+}
+
+/* TEXT */
+
+.text-xxl {
+  font-size: 4rem;
+}
+
+.text-xl {
+  font-size: 3rem;
+}
+
+.text-l {
+  font-size: 2rem;
+}
+

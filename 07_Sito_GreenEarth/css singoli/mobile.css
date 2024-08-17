@@ -1,0 +1,305 @@
+@media only screen and (max-width: 500px) {
+  /* HEADER */
+  .navbar-header {
+    height: 5.5rem;
+  }
+
+  .navbar-header .navbar {
+    width: 90%;
+  }
+
+  .container-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-mobile {
+    display: flex;
+  }
+
+  .logo-normal {
+    display: none;
+  }
+
+  /* HAMBURGER MENU */
+  .hamburger-button {
+    display: flex;
+  }
+
+  .mobile-menu {
+    top: 5.3rem;
+    border-radius: 0;
+    height: 100vh;
+    padding: 8rem;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
+  /* HERO SECTION */
+  .hero .container {
+    width: 100%;
+    background-position: -15rem;
+    background-size: cover;
+  }
+
+  .hero .hero-content {
+    width: 100%;
+    height: 80%;
+    border-radius: 0;
+ }
+
+  .hero-heading{
+    font-size: 2.25rem;
+    width: 110%;
+  }
+
+  .hero .hero-text{
+    width: 110%;
+    font-size: 1.13rem;
+  }
+
+  .hero .hero-button {
+    width: 21.5rem;
+  }
+
+  /* ABOUT SECTION */
+  .about-us .about,
+  .about-us .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .about-logo {
+    align-items: center;
+  }
+
+  .about-txt {
+    font-size: 2rem;
+  }
+
+  .logo-verde-txt {
+    width: 12rem;
+    height: 2rem;
+  }
+
+  .text-about,
+  .text-mission {
+    padding: 0  3rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    width: 25rem;
+  }
+
+  .title-about,
+  .title-mission {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .text-mission {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .volunteers {
+    margin: 3.5rem 0 0 0;
+    width: 25rem;
+  }
+
+  /* OUR PROJECTS SECTION */
+  .our-projects .background-our-projects {
+    height: 35.5rem !important;
+  }
+
+
+  /* SLIDESHOW */
+  .slider-container {
+    height: 22.5rem !important;
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .slider {
+    height: 22.5rem !important;
+    width: 100% !important;
+    flex: 1 0 100% !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x block !important;
+    position: relative !important;
+    transition: linear !important;
+  }
+
+  .our-projects .img-1 {
+    background-size: cover !important;
+    background-position: 0 !important;
+  }
+
+  .our-projects .img-2 {
+    background-size: cover !important;    
+    background-position: 0 !important;
+  }
+
+  .our-projects .img-3 {
+    background-size: cover !important;
+    background-position: 0 !important;
+  }
+
+  .our-projects .content-img {
+    margin-left: 0 !important;
+    width:100% !important;
+    height: 15.3rem !important;
+    align-items: center !important;
+  }
+
+  .img-2 .text-l-2,
+  .img-2 .p-2 {
+    color: var(--primary-color);
+  }
+
+  .our-projects .slider-container h2 {
+    font-size: 1.3rem !important;
+    text-align: center !important;
+    margin: 0 0 20px 0 !important;
+
+  }
+
+  .our-projects .slider-container p { 
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .our-projects .slider-container .btn-primary {
+    width: 80% !important;
+    margin: 40px 0 0 0px !important;
+    position: absolute !important;
+    bottom: -2rem !important;
+  }
+
+  /* FORM SECTION */
+
+.form-box {
+  width: 90%;
+}
+
+.sendit-btn {
+  width: 100%;
+}
+
+/* FOOTER SECTION */
+.footer-container-background {
+  width: 100%;
+  height: 47rem;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container-background .footer-container-mobile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container-background .logo-container-mobile {
+  margin-top: 3.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-container-background .footer-content-middle-mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container-background .subscribe-box-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 21.5rem;
+  height: 13.7rem;
+  background-color: var(--third-color);
+  border-radius: 0.6rem;
+  margin-bottom: 3.7rem;
+}
+
+.footer-container-background .title-subscribe-menu {
+  font-size: 18px;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+
+.footer-container-background .subscribe-box-mobile p {
+  width: 85%;
+  margin-bottom: 11px;
+}
+
+.footer-container-background .form-footer-mobile {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+}
+
+.footer-container-background .form-newsletter-mobile {
+  border: 0.5px solid #adadad;
+  border-radius: 5px;
+  padding-left: 0.3rem;
+  width: 11rem;
+  margin-right: 0.5rem;
+  outline: none;
+}
+
+.footer-container-background .button-newsletter-mobile {
+  width: 6.7rem;
+}
+
+.footer-container-background .menu-footer-mobile {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 85%;
+color: var(--font-color);
+}
+
+.footer-container-background .about-footer-mobile h3,
+.footer-container-background .projects-footer-mobile h3,
+.footer-container-background .contact-footer-mobile h3 {
+ margin-bottom: 1rem;
+}
+
+.footer-container-background .menu-footer-mobile a{
+  text-decoration: none;
+  color: var(--font-color);
+  transition: 0.5s;
+}
+
+.footer-container-background .menu-footer-mobile a:hover:active {
+  text-decoration: none;
+  color: var(--font-color-hover);
+}
+
+.footer-container-background .contact-footer-mobile {
+  margin-top: 3.5rem;
+}
+
+.footer-container-background .footer-content-bottom-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+}
+}
